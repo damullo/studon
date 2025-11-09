@@ -3,7 +3,7 @@ from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 def index(request):
-    return JsonResponse({"message": "Mini Twitter API is running 🚀"})
+    return JsonResponse({"message": "Mini Twitter API is running 🚀 test"})
 
 urlpatterns = [
     path("", index),
