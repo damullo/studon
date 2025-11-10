@@ -1,4 +1,4 @@
 # studon
 
-test
-test 2
+Django REST framework
+
